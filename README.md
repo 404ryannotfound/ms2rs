@@ -55,7 +55,7 @@ Log any issues to the [Issues](https://github.com/404ryannotfound/ms2rs/issues) 
 
 ### Known issues/Limitations
 
-PLUGIN CURRENTLY NOT WORKING - https://github.com/404ryannotfound/ms2rs/issues/1
+PLUGIN CURRENTLY NOT WORKING due to regex URL match- https://github.com/404ryannotfound/ms2rs/issues/1
 
 ## Contributing
 
