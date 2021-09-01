@@ -1,0 +1,9 @@
+﻿name: ms2rs
+title: Microsoft Stream to ResourceSpace
+author: Ryan scott (DBCA)
+version: 1.0
+desc: Enables to publish videos from Microsoft Stream.
+icon: fab fa-microsoft
+config_url: /plugins/ms2rs/pages/setup.php
+category: content sharing
+default_priority: 999
