@@ -35,7 +35,7 @@ npm install
 ```
 Alternatively:
 
-Download the zip file https://github.com/404ryannotfound/ms2rs/archive/refs/heads/main.zip. Unzip the contents, rename the '```ms2rs-master```' folder to '```ms2rs```', re-zip the folder, and change from '```.zip```' to '```.rsp```'
+Download the zip file https://github.com/404ryannotfound/ms2rs/archive/refs/heads/main.zip. Unzip the contents, rename the '```ms2rs-main```' folder to '```ms2rs```', re-zip the folder, and change from '```.zip```' to '```.rsp```'
 In your web browser open your ResourceSpace site, navigate to: System >  Plugins > Bottom of the page: Select the  ms2rs.rsp 
 
 ## Operation
