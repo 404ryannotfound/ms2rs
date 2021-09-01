@@ -55,8 +55,8 @@ Log any issues to the [Issues](https://github.com/404ryannotfound/ms2rs/issues) 
 
 ### Known issues/Limitations
 
-WARNING: When  trying to preview iframe - Website will not allow Firefox to display the page if another site has embedded it
-https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options
+My coding skills ¯\_(ツ)_/¯ 
+upload_plupload.php & view.php both need review of the regex checking.
 
 ## Contributing
 
