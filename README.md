@@ -21,6 +21,10 @@ Due to Microsoft office/365 security & logins, user must be logged in & authenti
 ## Operation
 The Microsoft Stream to ResourceSpace plugin hooks into the resource View page to embed a Stream video. On the options page for this plugin you can enter the ID of a metadata field that is used to store the URL of the Stream video.
 
+## Metadata field creation
+
+In your web browser open your ResourceSpace site, navigate to: System >  Metadata fields: Select resource type 'Video', Create metadata field called ...  'StreamURL' / Text box (single line). Take note of the ID.
+
 ## Installation
 
 To install, cd into the `plugins` directory, clone, then install.
@@ -34,11 +38,16 @@ Alternatively:
 Download the zip file https://github.com/404ryannotfound/ms2rs/archive/master.zip. Unzip the contents, rename the '```ms2rs-master```' folder to '```ms2rs```', re-zip the folder, and change from '```.zip```' to '```.rsp```'
 In your web browser open your ResourceSpace site, navigate to: System >  Plugins > Bottom of the page: Select the  ms2rs.rsp 
 
+## Operation
+The Microsoft Stream to ResourceSpace plugin hooks into the resource View page to embed a Stream video. On the options page for this plugin you can enter the ID of a metadata field that is used to store the URL of the Stream video. Metadata field creation
+
+## Setup
+In your web browser open your ResourceSpace site, navigate to: System >  Plugins > Microsoft Stream to ResourceSpace > Options: Add your Metadata field ID, Save & exit
+
 ## Usage
 To create a new resource, select the Drop menu (top right) > Resources > Create new resource record
 Select Video, add metadata as required. Under Video Properties: add the url to StreamURL i.e. https://web.microsoftstream.com/video/12345678-5ba4-5ac3-b870-ce8b0df12345
 If using the Embed code, be sure to exclude '```?autoplay=false&showinfo=true```' from the url.
-
 
 ## Issues known/contributing
 
