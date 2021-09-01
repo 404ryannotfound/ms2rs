@@ -55,7 +55,8 @@ Log any issues to the [Issues](https://github.com/404ryannotfound/ms2rs/issues) 
 
 ### Known issues/Limitations
 
-PLUGIN CURRENTLY NOT WORKING due to regex URL match- https://github.com/404ryannotfound/ms2rs/issues/1
+WARNING: When  trying to preview iframe - Website will not allow Firefox to display the page if another site has embedded it
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options
 
 ## Contributing
 
