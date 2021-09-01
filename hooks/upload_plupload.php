@@ -9,13 +9,13 @@ function HookMs2rsUpload_pluploadupload_page_bottom()
         {
         return false;
         }
-    else if (preg_match("/web.microsoftstream.com\/video\/[a-z1-9.-_]+/", $stream_copy_path))
+    else if (preg_match("/web.microsoftstream.com\/video\/[a-zA-Z0-9_\.\-]+/", $stream_copy_path))
         {
-        preg_match("/web.microsoftstream.com\/video\/([a-z1-9.-_]+)/", $stream_copy_path, $matches);
+        preg_match("/web.microsoftstream.com\/video\/([a-zA-Z0-9_\.\-]+)/", $stream_copy_path, $matches);
         }
-    else if (preg_match("/web.microsoftstream.com\/embed\/video\/[a-z1-9.-_]+/", $stream_copy_path))
+    else if (preg_match("/web.microsoftstream.com\/embed\/video\/[a-zA-Z0-9_\.\-]+/", $stream_copy_path))
         {
-        preg_match("/web.microsoftstream.com\/embed\/video\/([a-z1-9.-_]+)/", $stream_copy_path, $matches);
+        preg_match("/web.microsoftstream.com\/embed\/video\/([a-zA-Z0-9_\.\-]+)/", $stream_copy_path, $matches);
         }
     else
         {
