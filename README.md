@@ -5,8 +5,7 @@ A plugin for ResourceSpace (a Digital Asset management system), allowing for the
 
 ## Screenshot
 
-![Particles screenshot](/public/resourcespace.jpg)
-View the [screenshots](https://github.com/404ryannotfound/ms2rs/tree/master/public).
+![resourcespace-screenshot](https://user-images.githubusercontent.com/2672028/131600233-5a68244c-48b3-48a8-b234-a4acb180f176.jpg)
 
 ## Links
 
