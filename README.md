@@ -55,12 +55,7 @@ Log any issues to the [Issues](https://github.com/404ryannotfound/ms2rs/issues) 
 
 ### Known issues/Limitations
 
-PLUGIN CURRENTLY NOT WORKING - 
-* **hooks > upload_plupload.php**: preg_match function currently stripping after the first dash in the url. 
-Example: https://web.microsoftstream.com/video/12345678-5ba4-5ac3-b870-ce8b0df12345
-gets converted to: https://web.microsoftstream.com/video/12345678
-Will need to use a different function to get the video ID.
-* **hooks > view.php**: preg_match function currently stripping after the first dash in the url. 
+PLUGIN CURRENTLY NOT WORKING - #1
 
 ## Contributing
 
