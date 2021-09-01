@@ -4,9 +4,9 @@ function isValidStreamURL($url)
     // Check if the video exists
     global $ms2rs_videoId;
     // stream url? 
-    if (preg_match("/web.microsoftstream.com\/video\/[a-z1-9.-_]+/", $url))
+    if (preg_match("/web.microsoftstream.com\/video\/[a-zA-Z0-9_\.\-]+/", $url))
         {
-        preg_match("/web.microsoftstream.com\/video\/([a-z1-9.-_]+)/", $url, $matches);
+        preg_match("/web.microsoftstream.com\/video\/([a-zA-Z0-9_\.\-]+)/", $url, $matches);
         }
     else if (preg_match("/web.microsoftstream.com(.+)v=([^&]+)/", $url))
         {
